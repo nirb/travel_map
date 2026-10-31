@@ -70,7 +70,8 @@ button.link { background: none; color: #c00; padding: 2px 6px; font-size: .85rem
 }
 
 .wish-star { color: #f5a623; font-size: 26px; line-height: 26px; text-align: center;
-  text-shadow: 0 1px 4px rgba(0,0,0,.45); }
+  -webkit-text-stroke: 1.4px #fff;
+  text-shadow: 0 1px 4px rgba(0,0,0,.5); }
 .wish-legend { color: #f5a623; font-size: 14px; margin-inline-end: 4px; }
 
 #list-btn { font-size: .85rem; padding: 6px 12px; }
