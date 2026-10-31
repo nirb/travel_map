@@ -69,10 +69,10 @@ button.link { background: none; color: #c00; padding: 2px 6px; font-size: .85rem
            border-radius: 16px; max-height: 60dvh; }
 }
 
-.wish-star { color: #f5a623; font-size: 26px; line-height: 26px; text-align: center;
+.wish-star { color: #2563eb; font-size: 26px; line-height: 26px; text-align: center;
   -webkit-text-stroke: 1.4px #fff;
   text-shadow: 0 1px 4px rgba(0,0,0,.5); }
-.wish-legend { color: #f5a623; font-size: 14px; margin-inline-end: 4px; }
+.wish-legend { color: #2563eb; font-size: 14px; margin-inline-end: 4px; }
 
 #list-btn { font-size: .85rem; padding: 6px 12px; }
 .list-section { margin: 12px 0 4px; font-size: 1rem; }
