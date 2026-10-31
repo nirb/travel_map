@@ -1,0 +1,12 @@
+name = "instinct-travel"
+pages_build_output_dir = "public"
+compatibility_date = "2026-10-30"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "instinct-travel-db"
+database_id = "1f2e3534-e82c-4e19-8bab-398d0758d68a"
+
+[vars]
+# OWNER_EMAIL is set as a Pages project secret (never committed).
+GOOGLE_CLIENT_ID = "131344784942-claa0ojohqmfqlqpm444d9nk900e0uus.apps.googleusercontent.com"

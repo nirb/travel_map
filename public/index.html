@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>instinct_travel - הערים שלנו בעולם</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@5.6.1/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>הערים שלנו בעולם</h1>
+    <div id="auth-area">
+      <button id="list-btn" class="btn secondary">רשימה</button>
+      <span id="who" hidden></span>
+      <a id="login-btn" class="btn" href="/auth/google">כניסה עם Google</a>
+      <button id="logout-btn" hidden>יציאה</button>
+    </div>
+  </header>
+
+  <div id="map-wrap"><div id="map"></div></div>
+
+  <div id="legend">
+    <span><i class="dot both"></i> שנינו</span>
+    <span><i class="dot nir"></i> ניר</span>
+    <span><i class="dot einav"></i> עינב</span>
+    <span><i class="wish-legend">★</i> רוצים לבקר</span>
+    <span class="attrib">© <a href="https://www.openstreetmap.org/copyright">OSM</a> · <a href="https://versatiles.org">VersaTiles</a> · <a href="https://www.naturalearthdata.com">Natural Earth</a> · ESA WorldCover</span>
+  </div>
+
+  <section id="editor-tools" hidden>
+    <button id="add-city-btn" class="btn">הוספת עיר</button>
+    <button id="editors-btn" class="btn secondary" hidden>ניהול עורכים</button>
+  </section>
+
+  <div id="panel" hidden>
+    <button id="panel-close" aria-label="סגירה">×</button>
+    <div id="panel-content"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5.6.1/dist/maplibre-gl.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
